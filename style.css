@@ -1,0 +1,174 @@
+html {
+    background-color: white;
+}
+.header {
+	font-family: 'Sacramento', cursive;
+    font-size: 95px;
+    text-align: left;
+    margin-left: 20%;
+    color: darkgreen;
+    display: inline-block;
+}
+.top {
+    display: inline;
+    display: block;
+    background-color: white;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    height: 40px;
+}
+#resume {
+    margin-left: 1%;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+#email {
+    margin-left: 2%;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+#linkedin {
+    margin-left: 2.5%;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+#sidebar {
+    display: inline-block;
+}
+.intro {
+    font-family: 'Indie Flower', cursive;
+    font-size: 37px;
+    margin-left: 38%;
+   
+}
+.block1title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 27px;
+    margin-left: 25%;
+}
+.pic1 {
+    max-width: 410px;
+    max-height: 309px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.content1 {
+    display:none;
+
+}
+
+.content1.show {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.me {
+    font-family: 'Monda', sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+    text-align: left;
+    max-width: 630px;
+    width:auto;
+    margin-top: 0%;
+}
+
+.bold {
+    color: darkgreen;
+}
+
+.block1 {
+    vertical-align: middle;
+}
+
+.block2 {
+    height: 310px;
+}
+
+.block2title {
+    font-family: 'Indie Flower', cursive;
+    display: block;
+    font-size: 27px;
+    margin-left: 52%;
+    padding-top: 100px;
+}
+.pic2 {
+    max-width: 410px;
+    max-height: 309px;
+    width: auto;
+    height: auto;
+    display: block;
+    float: right;   
+    margin-right: 25%;
+    margin-top: 40px;
+}
+
+.content2 {
+    display:none;
+
+}
+
+.content2.show {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.hackathon {
+    display: inline-block;
+    font-family: 'Monda', sans-serif;
+    font-size: 20px;
+    margin-left: 36%;
+    text-align: left;
+    max-width: 860px;
+    width:auto;
+    text-align: left;
+    margin-top: 0%;
+}
+.block3title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 27px;
+    margin-left: 25%;
+}
+.pic3 {
+    max-width: 410px;
+    max-height: 309px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left: 25%;
+}
+.content3 {
+    display:none;
+
+}
+
+.content3.show {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.travel {
+    font-family: 'Monda', sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+    text-align: left;
+    max-width: 630px;
+    width:auto;
+    margin-top: 0%;
+}
+
+.block3 {
+    vertical-align: middle;
+}
