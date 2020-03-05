@@ -196,7 +196,6 @@ and (orientation : landscape) {
         display: inline-block;
     }
     .top {
-        display: inline;
         display: block;
         background-color: white;
         position: -webkit-sticky; 
@@ -240,7 +239,7 @@ and (orientation : landscape) {
     .block1title {
         font-family: 'Indie Flower', cursive;
         font-size: 27px;
-        margin-left: 20%;
+        text-align: center;
     }
     .pic1 {
         max-width: 410px;
@@ -287,7 +286,7 @@ and (orientation : landscape) {
         font-family: 'Indie Flower', cursive;
         display: block;
         font-size: 27px;
-        margin-left: 56%;
+        text-align: center;
         padding-top: 100px;
     }
     .pic2 {
@@ -296,8 +295,6 @@ and (orientation : landscape) {
         width: auto;
         height: auto;
         display: block;
-        float: right;   
-        margin-right: 4%;
         margin-top: 40px;
     }
     
@@ -312,20 +309,19 @@ and (orientation : landscape) {
     }
     
     .hackathon {
-        display: inline-block;
         font-family: 'Monda', sans-serif;
         font-size: 15px;
-        margin-left: 12%;
-        text-align: left;
+        text-align: center;
         max-width: 500px;
         width:auto;
-        text-align: left;
         margin-top: 0%;
+        display: block;
+        margin: 0 auto;
     }
     .block3title {
         font-family: 'Indie Flower', cursive;
         font-size: 27px;
-        margin-left: 14%;
+        text-align: center;
     }
     .pic3 {
         max-width: 410px;
