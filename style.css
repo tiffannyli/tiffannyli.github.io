@@ -381,7 +381,7 @@ and (orientation : portrait) {
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
-        height: 40px;
+        height: 50px;
     }
     #resume {
         margin-left: 1%;
@@ -741,7 +741,7 @@ and (max-width : 1307px) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
-        height: 20px;
+        height: 35px;
     }
     #email {
         margin-left: 2%;
@@ -750,7 +750,7 @@ and (max-width : 1307px) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
-        height: 20px;
+        height: 35px;
     }
     #linkedin {
         margin-left: 2.5%;
@@ -759,7 +759,7 @@ and (max-width : 1307px) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
-        height: 20px;
+        height: 35px;
     }
     #sidebar {
         display: inline-block;
