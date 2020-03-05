@@ -63,7 +63,7 @@ and (min-width : 1309px) {
     }
     .pic1 {
         max-width: 410px;
-        max-height: 309px;
+        max-height: 330px;
         width: auto;
         height: auto;
         display: inline-block;
@@ -148,7 +148,7 @@ and (min-width : 1309px) {
     }
     .pic3 {
         max-width: 410px;
-        max-height: 309px;
+        max-height: 330px;
         width: auto;
         height: auto;
         display: inline-block;
@@ -242,7 +242,7 @@ and (orientation : landscape) {
     }
     .pic1 {
         max-width: 410px;
-        max-height: 309px;
+        max-height: 330px;
         width: auto;
         height: auto;
         display: inline-block;
@@ -324,7 +324,7 @@ and (orientation : landscape) {
     }
     .pic3 {
         max-width: 410px;
-        max-height: 309px;
+        max-height: 330px;
         width: auto;
         height: auto;
         display: inline-block;
@@ -419,7 +419,7 @@ and (orientation : portrait) {
     }
     .pic1 {
         max-width: 650px;
-        max-height: 400px;
+        max-height: 480px;
         width: 90%;
         height: 90%;
         display: block;
@@ -502,7 +502,7 @@ and (orientation : portrait) {
     }
     .pic3 {
         max-width: 650px;
-        max-height: 400px;
+        max-height: 480px;
         width: 90%;
         height: 90%;
         display: block;
@@ -594,7 +594,7 @@ and (max-device-width : 670px) {
     }
     .pic1 {
         max-width: 500px;
-        max-height: 400px;
+        max-height: 430px;
         width: 90%;
         height: 90%;
         display: block;
@@ -678,7 +678,7 @@ and (max-device-width : 670px) {
     }
     .pic3 {
         max-width: 500px;
-        max-height: 400px;
+        max-height: 430px;
         width: 90%;
         height: 90%;
         display: block;
@@ -773,7 +773,7 @@ and (max-width : 1307px) {
     }
     .pic1 {
         max-width: 650px;
-        max-height: 400px;
+        max-height: 480px;
         width: 90%;
         height: 90%;
         display: block;
@@ -856,7 +856,7 @@ and (max-width : 1307px) {
     }
     .pic3 {
         max-width: 650px;
-        max-height: 400px;
+        max-height: 480px;
         width: 90%;
         height: 90%;
         display: block;
@@ -952,7 +952,7 @@ and (max-width: 1717px){
     }
     .pic1 {
         max-width: 410px;
-        max-height: 309px;
+        max-height: 330px;
         width: auto;
         height: auto;
         display: inline-block;
@@ -1038,7 +1038,7 @@ and (max-width: 1717px){
     }
     .pic3 {
         max-width: 410px;
-        max-height: 309px;
+        max-height: 330px;
         width: auto;
         height: auto;
         display: inline-block;
