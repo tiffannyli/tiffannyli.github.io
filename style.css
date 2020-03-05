@@ -189,9 +189,8 @@ and (orientation : landscape) {
     }
     .header {
         font-family: 'Sacramento', cursive;
-        font-size: 95px;
+        font-size: 105px;
         text-align: center;
-        margin-left: 20%;
         color: darkgreen;
         display: inline-block;
     }
