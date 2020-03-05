@@ -190,7 +190,7 @@ and (orientation : landscape) {
     .header {
         font-family: 'Sacramento', cursive;
         font-size: 95px;
-        text-align: left;
+        text-align: center;
         margin-left: 20%;
         color: darkgreen;
         display: inline-block;
