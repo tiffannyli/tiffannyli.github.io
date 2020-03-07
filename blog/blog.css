@@ -18,6 +18,18 @@
     outline: none;
     transition: 0.4s;
 }
+.section:after {
+    content: '\002B';
+    color: #444;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.section.toggled:after {
+    content: '\2796';
+    font-size: 15px;
+    padding-top: 11px;
+}
 ul, ol {
     margin-left:0px;
    }
