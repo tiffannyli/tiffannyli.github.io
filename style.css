@@ -246,6 +246,7 @@ and (orientation : landscape) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
+        height: 45px; 
     }
     #sidebar {
         display: inline-block;
@@ -430,6 +431,7 @@ and (orientation : portrait) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
+        height: 45px; 
     }
     #sidebar {
         display: inline-block;
@@ -613,7 +615,7 @@ and (max-device-width : 670px) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
-        height: 35px; 
+        height: 45px; 
     }
     #sidebar {
         display: inline-block;
@@ -801,7 +803,7 @@ and (max-width : 1307px) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
-        height: 35px; 
+        height: 45px; 
     }
     #sidebar {
         display: inline-block;
