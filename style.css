@@ -213,7 +213,7 @@ and (orientation : landscape) {
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
-        height: 45px;
+        height: 55px;
     }
     #resume {
         margin-left: 1%;
@@ -397,7 +397,7 @@ and (orientation : portrait) {
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
-        height: 50px;
+        height: 55px;
     }
     #resume {
         margin-left: 1%;
@@ -580,7 +580,7 @@ and (max-device-width : 670px) {
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
-        height: 45px;
+        height: 55px;
     }
     #resume {
         margin-left: 1%;
