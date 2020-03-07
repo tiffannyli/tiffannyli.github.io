@@ -1,6 +1,7 @@
-.top button {
-    background-color: white;
+.top a{
+    text-decoration: none;
 }
+
 @media only screen 
 and (min-width : 1309px) {
     html {
@@ -49,6 +50,15 @@ and (min-width : 1309px) {
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px;
+    }
+    #blog {
+        margin-left: 2.5%;
+        border: none;
+        cursor: pointer;
+        display: inline;
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+        height: 35px; 
     }
     #sidebar {
         display: inline-block;
@@ -203,7 +213,7 @@ and (orientation : landscape) {
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
-        height: 40px;
+        height: 45px;
     }
     #resume {
         margin-left: 1%;
@@ -222,6 +232,14 @@ and (orientation : landscape) {
         font-size: 25px;
     }
     #linkedin {
+        margin-left: 2.5%;
+        border: none;
+        cursor: pointer;
+        display: inline;
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+    }
+    #blog {
         margin-left: 2.5%;
         border: none;
         cursor: pointer;
@@ -405,6 +423,14 @@ and (orientation : portrait) {
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
     }
+    #blog {
+        margin-left: 2.5%;
+        border: none;
+        cursor: pointer;
+        display: inline;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+    }
     #sidebar {
         display: inline-block;
     }
@@ -554,7 +580,7 @@ and (max-device-width : 670px) {
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
-        height: 40px;
+        height: 45px;
     }
     #resume {
         margin-left: 1%;
@@ -579,6 +605,15 @@ and (max-device-width : 670px) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
+    }
+    #blog {
+        margin-left: 2.5%;
+        border: none;
+        cursor: pointer;
+        display: inline;
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+        height: 35px; 
     }
     #sidebar {
         display: inline-block;
@@ -730,7 +765,7 @@ and (max-width : 1307px) {
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
-        height: 40px;
+        height: 45px;
     }
     #resume {
         margin-left: 1%;
@@ -758,6 +793,15 @@ and (max-width : 1307px) {
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
         height: 35px;
+    }
+    #blog {
+        margin-left: 2.5%;
+        border: none;
+        cursor: pointer;
+        display: inline;
+        font-family: 'Indie Flower', cursive;
+        font-size: 30px;
+        height: 35px; 
     }
     #sidebar {
         display: inline-block;
@@ -938,6 +982,15 @@ and (max-width: 1717px){
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px;
+    }
+    #blog {
+        margin-left: 2.5%;
+        border: none;
+        cursor: pointer;
+        display: inline;
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+        height: 35px; 
     }
     #sidebar {
         display: inline-block;
