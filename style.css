@@ -1,6 +1,9 @@
 .top a{
     text-decoration: none;
 }
+.top button {
+    background-color: white;
+}
 
 @media only screen 
 and (min-width : 1309px) {
@@ -32,7 +35,6 @@ and (min-width : 1309px) {
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px;
-        background-color: white;
     }
     #email {
         margin-left: 2%;
@@ -42,7 +44,6 @@ and (min-width : 1309px) {
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px;
-        background-color: white;
     }
     #linkedin {
         margin-left: 2.5%;
@@ -52,7 +53,6 @@ and (min-width : 1309px) {
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px;
-        background-color: white;
     }
     #blog {
         margin-left: 2.5%;
@@ -62,7 +62,6 @@ and (min-width : 1309px) {
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px; 
-        background-color: white;
     }
     #sidebar {
         display: inline-block;
@@ -226,7 +225,6 @@ and (orientation : landscape) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
-        background-color: white;
     }
     #email {
         margin-left: 2%;
@@ -235,7 +233,6 @@ and (orientation : landscape) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
-        background-color: white;
     }
     #linkedin {
         margin-left: 2.5%;
@@ -244,7 +241,6 @@ and (orientation : landscape) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
-        background-color: white;
     }
     #blog {
         margin-left: 2.5%;
@@ -254,7 +250,6 @@ and (orientation : landscape) {
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 45px; 
-        background-color: white;
     }
     #sidebar {
         display: inline-block;
@@ -415,7 +410,6 @@ and (orientation : portrait) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
-        background-color: white;
     }
     #email {
         margin-left: 2%;
@@ -424,7 +418,6 @@ and (orientation : portrait) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
-        background-color: white;
     }
     #linkedin {
         margin-left: 2.5%;
@@ -433,7 +426,6 @@ and (orientation : portrait) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
-        background-color: white;
     }
     #blog {
         margin-left: 2.5%;
@@ -443,7 +435,6 @@ and (orientation : portrait) {
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
         height: 45px; 
-        background-color: white;
     }
     #sidebar {
         display: inline-block;
@@ -603,7 +594,6 @@ and (max-device-width : 670px) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
-        background-color: white;
     }
     #email {
         margin-left: 2%;
@@ -612,7 +602,6 @@ and (max-device-width : 670px) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
-        background-color: white;
     }
     #linkedin {
         margin-left: 2.5%;
@@ -621,7 +610,6 @@ and (max-device-width : 670px) {
         display: inline;
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
-        background-color: white;
     }
     #blog {
         margin-left: 2.5%;
@@ -631,7 +619,6 @@ and (max-device-width : 670px) {
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 45px; 
-        background-color: white;
     }
     #sidebar {
         display: inline-block;
@@ -793,7 +780,6 @@ and (max-width : 1307px) {
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
         height: 35px;
-        background-color: white;
     }
     #email {
         margin-left: 2%;
@@ -803,7 +789,6 @@ and (max-width : 1307px) {
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
         height: 35px;
-        background-color: white;
     }
     #linkedin {
         margin-left: 2.5%;
@@ -813,7 +798,6 @@ and (max-width : 1307px) {
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
         height: 35px;
-        background-color: white;
     }
     #blog {
         margin-left: 2.5%;
@@ -823,7 +807,6 @@ and (max-width : 1307px) {
         font-family: 'Indie Flower', cursive;
         font-size: 30px;
         height: 45px; 
-        background-color: white;
     }
     #sidebar {
         display: inline-block;
@@ -986,7 +969,6 @@ and (max-width: 1717px){
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px;
-        background-color: white;
     }
     #email {
         margin-left: 2%;
@@ -996,7 +978,6 @@ and (max-width: 1717px){
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px;
-        background-color: white;
     }
     #linkedin {
         margin-left: 2.5%;
@@ -1006,7 +987,6 @@ and (max-width: 1717px){
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px;
-        background-color: white;
     }
     #blog {
         margin-left: 2.5%;
@@ -1016,7 +996,6 @@ and (max-width: 1717px){
         font-family: 'Indie Flower', cursive;
         font-size: 25px;
         height: 35px; 
-        background-color: white;
     }
     #sidebar {
         display: inline-block;
