@@ -2,13 +2,13 @@
     text-decoration: none;
 }
 .top button {
-    background-color: white;
+    background-color: beige;
 }
 
 @media only screen 
 and (min-width : 1309px) {
     html {
-        background-color: white;
+        background-color: beige;
     }
     .header {
         font-family: 'Sacramento', cursive;
@@ -21,7 +21,7 @@ and (min-width : 1309px) {
     .top {
         display: inline;
         display: block;
-        background-color: white;
+        background-color: beige;
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
@@ -201,7 +201,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1220px) 
 and (orientation : landscape) {
     html {
-        background-color: white;
+        background-color: beige;
     }
     .header {
         font-family: 'Sacramento', cursive;
@@ -212,7 +212,7 @@ and (orientation : landscape) {
     }
     .top {
         display: block;
-        background-color: white;
+        background-color: beige;
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
@@ -386,7 +386,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1220px) 
 and (orientation : portrait) {
     html {
-        background-color: white;
+        background-color: beige;
     }
     .header {
         font-family: 'Sacramento', cursive;
@@ -397,7 +397,7 @@ and (orientation : portrait) {
     }
     .top {
         display: block;
-        background-color: white;
+        background-color: beige;
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
@@ -570,7 +570,7 @@ and (orientation : portrait) {
 @media only screen 
 and (max-device-width : 670px) {
     html {
-        background-color: white;
+        background-color: beige;
     }
     .header {
         font-family: 'Sacramento', cursive;
@@ -581,7 +581,7 @@ and (max-device-width : 670px) {
     }
     .top {
         display: block;
-        background-color: white;
+        background-color: beige;
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
@@ -755,7 +755,7 @@ and (max-device-width : 670px) {
 @media only screen 
 and (max-width : 1307px) {
     html {
-        background-color: white;
+        background-color: beige;
     }
     .header {
         font-family: 'Sacramento', cursive;
@@ -766,7 +766,7 @@ and (max-width : 1307px) {
     }
     .top {
         display: block;
-        background-color: white;
+        background-color: beige;
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
@@ -942,7 +942,7 @@ and (max-width : 1307px) {
 and (min-width : 1308px) 
 and (max-width: 1717px){
     html {
-        background-color: white;
+        background-color: beige;
     }
     .header {
         font-family: 'Sacramento', cursive;
@@ -955,7 +955,7 @@ and (max-width: 1717px){
     .top {
         display: inline;
         display: block;
-        background-color: white;
+        background-color: beige;
         position: -webkit-sticky; 
         position: sticky;
         top: 0;
