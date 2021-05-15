@@ -169,6 +169,7 @@ ul.tabs > li:after {
   .content.show {
     display: inline-block;
     vertical-align: top;
+    margin-left: 50;
   }
 
   .text {
@@ -232,6 +233,7 @@ ul.tabs > li:after {
   .content.show {
     display: inline-block;
     vertical-align: top;
+    margin-left: 50;
   }
 
   .text {
