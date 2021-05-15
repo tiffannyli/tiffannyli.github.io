@@ -1,17 +1,23 @@
+$(document).ready(function () {
+  var tabs = $(".tabs > li");
 
-window.onclick = function(event) {
-    if(event.target.id === "pic1") {
-        var dropdown = document.getElementsByClassName("content1")
-        dropdown[0].classList.toggle("show")
-    }
-    if(event.target.id === "pic2") {
-        var dropdown = document.getElementsByClassName("content2")
-        dropdown[0].classList.toggle("show")
-    }
-    if(event.target.id === "pic3") {
-        var dropdown = document.getElementsByClassName("content3")
-        dropdown[0].classList.toggle("show")
-    }
-}
+  tabs.on("click", function () {
+    tabs.removeClass("active");
+    $(this).addClass("active");
 
-  
+    var pages = $(".page");
+
+    pages.removeClass("active");
+    var page = $(this).data("page");
+    $("#" + page).addClass("active");
+  });
+
+  $(".pic").on("click", function(){
+    let parent = $(this).parent()
+    let content = parent.find(".content")
+    content.toggleClass("show")
+  })
+});
+
+
+

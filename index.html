@@ -1,67 +1,162 @@
 <html>
- <meta name="viewpoint" content="width=device-width, initial-scale=1.0">   
-<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style2.css">
 <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Monda&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 <script src="pictures.js"></script>
+
 <head>
-    <title>Tiffany Li</title>
+  <title>Tiffany Li</title>
+  <link rel="icon" type="image/svg" href="flower-outline.svg">
 </head>
 
 <body>
+
+  <div class=tab-container>
+    <ul class="tabs clearfix">
+      <li data-page="other">
+        <a href=#>Other</a>
+      </li>
+      <li data-page="interest">
+        <a href=#>Interests</a>
+      </li>
+      <li data-page="education">
+        <a href=#>Education</a>
+      </li>
+      <li data-page="about" class="active">
+        <a href=#>About Me</a>
+      </li>
+    </ul>
+
     <div class="top">
-        <button id="resume" onclick="window.open('Tiffany Li-Resume.pdf');">Resumé</button>
-        <button id="email" onclick="parent.location='mailto:tiffanny.li99@gmail.com'">Email</button>
-        <button id="linkedin" onclick="window.open('https://www.linkedin.com/in/tiffany-li-779257180/');">LinkedIn</button>
-        <a href="blog/blog.html"><button id="blog">Blog</button></a>
+      <button id="resume" onclick="window.open('Tiffany Li-Resume.pdf');"></button>
+      <button id="email" onclick="parent.location='mailto:tiffanny.li99@gmail.com'"></button>
+      <button id="linkedin" onclick="window.open('https://www.linkedin.com/in/tiffany-li-779257180/');"></button>
+      <a href="blog/blog.html"><button id="blog"></button></a>
     </div>
-    <b class = "header">Hey, it's Tiffany</b>
-    <p class ="intro">...Welcome to my website. Click on each picture learn more about me!</p>
+  </div>
+  <div class=outer-circle></div>
+
+
+  <div id="about" class="page active">
+    <b class="blocktitle">About Me</b>
+
+    <div class="pictext">
+      <input type="image" src="IMG_4149.JPG" name="aboutme" class="pic" />
+      <div class="content show">
+        <p class="text">Hi, my name is <b class="bold">Tiffany</b>. I am currently a <b class="bold">fourth year</b>
+          student studying <b class="bold">Mathematics/Business Administration with a Computing Option</b> at the
+          University of Waterloo. </p>
+        <p class="text"> I enjoy learning and applying mathematical analyses to different business problems, which has
+          driven my decision to study in a program that explores both the math and business world.</p>
+        <p class="text"> On the top right, you can find my resume, email, Linkedin, and blog. Do feel free to contact me
+          and I would love to chat with you!</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="education" class="page">
+
+    <div class="interest">
+      <b class="blocktitle pictxttitle">Education</b>
+      <input type="image" src="IMG_5755.jpg" name="aboutme" class="pic" />
+      <div class="content show">
+        <p class="text"> <b class="bold">University of Waterloo</b> </p>
+        <p class="text"> Honours Mathematics/Business Administration with Computing Option 2019 - 2022 </p>
+        <p class="text"> Honours Mathematics 2017 - 2019 </p>
+      </div>
+    </div>
+
+
+    <div class="pictext">
+      <input type="image" src="IMG_5756.jpg" name="aboutme" class="pic" />
+      <div class="content show">
+        <p class="me"><b class="bold">Imperial College London Business School - Summer Program 2019</b> </p>
+
+        <p class="me"> Modules:
+          <li class="me"> Principles of Finance
+          </li>
+          <li class="me"> Business Strategy and Consulting</li>
+      </div>
+    </div>
+  </div>
+
+  <div id="interest" class="page">
+
+    <div class="block2 interest">
+      <b class="blocktitle pictxttitle">Hackathon</b>
+
+      <input type="image" src="IMG_0308.jpg" name="text" class="pic interestpicture" />
+      <div class="content">
+        <p class="text"> Attending Hackathons allows me to enhance my problem-solving skills, and learn about many
+          new technologies. I enjoy attending Hackathons. I find it both fun and challenging for me to work with a team
+          to turn an idea into a product in such a short amount of time!</p>
+
+        <p class="text"> I attended StarterHacks 2019, UofTHacks VI, nHack Lassonde 2019.
+          Here is my <a class="bold" target="_blank" href="https://devpost.com/tiffanny_li">DevPost</a> where you can
+          check out the text projects that I worked on. </p>
+      </div>
+    </div>
+
+    <div class="interest">
+      <b class="blocktitle pictxttitle">Mechanical Keyboard</b>
+      <input type="image" src="DSC02279.JPG" name="text" class="pic interestpicture" />
+      <div class="content">
+        <p class="text"> I really like the customization, the do-it-yourself part in putting together a mechanical
+          keyboard. The ability to customize and choose what you would want to do is what makes this an really fun
+          hobby.</p>
+
+        <p class="text"> My current dailydriver is a space65 r2 with tangerine switches (62g). </p>
+      </div>
+    </div>
+
+    <div class="interest">
+      <b class="blocktitle pictxttitle">Travelling</b>
+      <input type="image" src="DSC01581.JPG" name="text" class="pic interestpicture" />
+      <div class="content">
+        <p class="text"> I love to <b class="bold">travel</b>. It allows me to see amazing architectures, learn about
+          different cultures, and eat delicious food! You can read more about some of my experiences in my blog.</p>
+
+        <p class="text"> Some of the places I have been to are: Barcelona, Beijing, Changsha, London, Macau, Miami,
+          Orlando, Paris, Prague, Sabah, Shanghai, Siem Reap, Vienna.</p>
+
+        <p class="text"> Next stops (hopefully in the near future): Florence, Chongqing, Tokyo. </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="other" class="page">
+    <b class="blocktitle">Certifications and Other textinations</b>
+
+    <div>
+      <input type="image" src="NEW CSI logo.png" name="aboutme" class="pic" />
+      <div class="content show">
+        <p class="text"> <b class="bold">Canadian Securities Course</b> </p>
+        <p class="text"> texts:
+          <li class="text"> Part I text Completed in 2020
+          </li>
+          <li class="text"> Part II text to be Completed in June 2021</li>
+      </div>
+    </div>
+
     <br><br>
 
-    <b class="block1title">About Me</b>
-
-    <div class ="block1">
-        <input id="pic1" type="image" src="IMG_4149.JPG" name="aboutme" class="pic1" />
-        <div class="content1">
-            <p class="me">Hi, my name is <b class="bold">Tiffany</b>. I am currently a <b class="bold">fourth year</b> student studying <b class="bold">Mathematics/Business Administration with a Computing Option</b> at the University of Waterloo. </p>
-            <br>
-            <p class="me"> I studied abroad at the <b class="bold">Imperial College London Business School</b> in Summer 2019. The courses I took are <b class="bold">Principles of Finance</b> and 
-                <b class="bold"> Business Strategy and Consulting</b>.</p>
-            <br>
-            <p class="me"> I have finished the <b class="bold">CSC (Canadian Securities Course) Exam 1</b>. I am planning to finish CSC Exam II in June, and the <b class="bold">FRM Exam I</b> in November 2021 (the exam got postponed once again)!</p>  
-        </div>
+    <div>
+      <input type="image" src="rtaImage.png" name="aboutme" class="pic" />
+      <div class="content show">
+        <p class="text"><b class="bold">Financial Risk Management text</b> </p>
+        <p class="text"> texts:
+          <li class="text"> Part I text to be completed in Nov 2021 (postponed due to Covid 19)
+          </li>
+          <li class="text"> Part II text TBD</li>
+      </div>
     </div>
 
-    
-    <b class="block2title">Hackathons</b>
 
-    <div class ="block2">
-        <input id="pic2" type="image" src="IMG_0308.jpg" name="hackathon" class="pic2" />
-        <div class="content2">
-            <p class="hackathon"> I love learning about technology and being involved in projects where I get to enhance my problem-solving skills. I enjoy attending Hackathons. It is both fun and challenging for me to work with a team to turn an idea into a product in such a short amount of time!</p>
-            <br>
-            <p class="hackathon"> I attended 
-                <b class="bold"> StarterHacks 2019</b>,
-                <b class="bold"> UofTHacks VI</b>,
-                <b class="bold"> Hack Lassonde 2019</b>.
-                Here is my <a class="bold" target="_blank" href="https://devpost.com/tiffanny_li">DevPost</a> where you can check out the hackathon projects that I worked on. </p>
-        </div>
-    </div>
-
-    <b class="block3title">My Travels</b>
-
-    <div class ="block3">
-        <input id="pic3" type="image" src="DSC01581.JPG" name="travel" class="pic3" />
-        <div class="content3">
-            <p class="travel"> I love to <b class="bold">travel</b>. It allows me to see <b class="bold">amazing architectures</b>, learn about <b class="bold">different cultures</b>, and eat <b class="bold">delicious food</b>!</p>
-            <br>
-            <p class="travel"> Some of the places I have been to are: Barcelona, Beijing, Changsha, London, Macau, Miami, Orlando, Paris, Prague, Sabah, Shanghai, Siem Reap, Vienna.</p>
-            <br> 
-            <p class="travel"> <b class="bold">Next stops</b> (hopefully in the near future): Florence, Chongqing, Tokyo. </p>
-        </div>
-    </div>
-    <br><br><br>
 </body>
+
 </html>

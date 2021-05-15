@@ -1,0 +1,558 @@
+body {
+  background: #efefef;
+  font-family: "Monda", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.tab-container {
+  background: #587e34;
+  margin: 0;
+  padding: 0;
+  max-height: 35px;
+}
+
+ul.tabs {
+  margin: 0;
+  list-style-type: none;
+  line-height: 35px;
+  max-height: 35px;
+  overflow: hidden;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+ul.tabs > li.active {
+  z-index: 2;
+  background: #efefef;
+}
+
+ul.tabs > li.active:before {
+  border-color: transparent #efefef transparent transparent;
+}
+
+ul.tabs > li.active:after {
+  border-color: transparent transparent transparent #efefef;
+}
+
+ul.tabs > li {
+  float: right;
+  margin: 5px -10px 0;
+  border-top-right-radius: 25px 170px;
+  border-top-left-radius: 20px 90px;
+  padding: 0 30px 0 25px;
+  height: 170px;
+  background: #ddd;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  max-width: 200px;
+}
+
+ul.tabs > li > a {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  color: #222;
+}
+
+ul.tabs > li:before,
+ul.tabs > li:after {
+  content: "";
+  background: transparent;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  border-width: 10px;
+  top: 0px;
+  border-style: solid;
+  position: absolute;
+}
+
+ul.tabs > li:before {
+  border-color: transparent #ddd transparent transparent;
+  -webkit-transform: rotate(48deg);
+  left: -23px;
+}
+
+ul.tabs > li:after {
+  border-color: transparent transparent transparent #ddd;
+  -webkit-transform: rotate(-48deg);
+  right: -17px;
+}
+
+/* Clear Fix took for HTML 5 Boilerlate*/
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+.top a {
+  text-decoration: none;
+}
+.top button {
+  background-repeat: no-repeat;
+  width: 30px;
+  margin-top: 2px;
+  margin-left: 2.5%;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  height: 35px;
+}
+
+#blog {
+  background-image: url("book-outline.svg");
+}
+
+#email {
+  background-image: url("mail-outline.svg");
+}
+
+#resume {
+  background-image: url("document-text-outline.svg");
+}
+
+#linkedin {
+  background-image: url("logo-linkedin.svg");
+}
+
+@media only screen and (min-width: 1309px) {
+  html {
+    background-color: white;
+  }
+
+  .top {
+    display: block;
+    position: -webkit-sticky;
+    height: 30px;
+    position: relative;
+    float: right;
+    width: 200px;
+    overflow: hidden;
+  }
+  .top button {
+    background-color: #587e34;
+  }
+
+  #sidebar {
+    display: inline-block;
+  }
+
+  .blocktitle {
+    font-family: "Merriweather", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 27px;
+    display: block;
+  }
+  .pic {
+    max-width: 410px;
+    max-height: 330px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .content.show {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .text {
+    font-family: "Monda", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: auto;
+    margin-top: 0%;
+  }
+
+  .bold {
+    color: darkgreen;
+  }
+
+  .block2 {
+    height: 180px;
+  }
+
+  
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1220px) and (orientation: landscape) {
+  html {
+    background-color: white;
+  }
+
+  .top {
+    display: block;
+    position: -webkit-sticky;
+    height: 30px;
+    position: relative;
+    float: right;
+    width: 200px;
+    overflow: hidden;
+  }
+  .top button {
+    background-color: #587e34;
+  }
+
+  #sidebar {
+    display: inline-block;
+  }
+
+  .blocktitle {
+    font-family: "Merriweather", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 27px;
+    display: block;
+  }
+  .pic {
+    max-width: 410px;
+    max-height: 330px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .content.show {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .text {
+    font-family: "Monda", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: auto;
+    margin-top: 0%;
+  }
+
+  .bold {
+    color: darkgreen;
+  }
+
+  .block2 {
+    height: 180px;
+  }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1220px) and (orientation: portrait) {
+  html {
+    background-color: white;
+  }
+
+  .top {
+    display: block;
+    position: -webkit-sticky;
+    height: 30px;
+    position: relative;
+    float: right;
+    width: 200px;
+    overflow: hidden;
+  }
+  .top button {
+    background-color: #587e34;
+  }
+
+  #sidebar {
+    display: inline-block;
+  }
+
+  .blocktitle {
+    font-family: "Merriweather", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 27px;
+    display: block;
+  }
+  .pic {
+    max-width: 410px;
+    max-height: 330px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .content.show {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .text {
+    font-family: "Monda", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: auto;
+    margin-top: 0%;
+  }
+
+  .bold {
+    color: darkgreen;
+  }
+
+  .block2 {
+    height: 180px;
+  }
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-device-width: 670px) {
+  html {
+    background-color: white;
+  }
+
+  .top {
+    display: block;
+    position: -webkit-sticky;
+    height: 30px;
+    position: relative;
+    float: right;
+    width: 200px;
+    overflow: hidden;
+  }
+  .top button {
+    background-color: #587e34;
+  }
+
+  #sidebar {
+    display: inline-block;
+  }
+
+  .blocktitle {
+    font-family: "Merriweather", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 27px;
+    display: block;
+  }
+  .pic {
+    max-width: 410px;
+    max-height: 330px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .content.show {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .text {
+    font-family: "Monda", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: auto;
+    margin-top: 0%;
+  }
+
+  .bold {
+    color: darkgreen;
+  }
+
+  .block2 {
+    height: 180px;
+  }
+
+}
+
+/*ipad layout for laptop   */
+@media only screen and (max-width: 1307px) {
+  html {
+    background-color: white;
+  }
+
+  .top {
+    display: block;
+    position: -webkit-sticky;
+    height: 30px;
+    position: relative;
+    float: right;
+    width: 200px;
+    overflow: hidden;
+  }
+  .top button {
+    background-color: #587e34;
+  }
+
+  #sidebar {
+    display: inline-block;
+  }
+
+  .blocktitle {
+    font-family: "Merriweather", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 27px;
+    display: block;
+  }
+  .pic {
+    max-width: 410px;
+    max-height: 330px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .content.show {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .text {
+    font-family: "Monda", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: auto;
+    margin-top: 0%;
+  }
+
+  .bold {
+    color: darkgreen;
+  }
+
+  .block2 {
+    height: 180px;
+  }
+
+}
+
+@media only screen and (min-width: 1308px) and (max-width: 1717px) {
+  html {
+    background-color: white;
+  }
+
+  .top {
+    display: block;
+    position: -webkit-sticky;
+    height: 30px;
+    position: relative;
+    float: right;
+    width: 200px;
+    overflow: hidden;
+  }
+  .top button {
+    background-color: #587e34;
+  }
+
+  #sidebar {
+    display: inline-block;
+  }
+
+  .blocktitle {
+    font-family: "Merriweather", sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 27px;
+    display: block;
+  }
+  .pic {
+    max-width: 410px;
+    max-height: 330px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .content.show {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .text {
+    font-family: "Monda", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: auto;
+    margin-top: 0%;
+  }
+
+  .bold {
+    color: darkgreen;
+  }
+
+  .block2 {
+    height: 180px;
+  }
+
+}
+
+div.page:not(.active) {
+  display: none;
+}
+
+.page {
+  display: grid;
+  grid-auto-rows: 3rem 1fr;
+  align-items: center;
+  margin-top: 80px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#interest {
+  grid-auto-rows: 1fr;
+  gap: 80px;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px 20px 30px;
+}
+
+.interest {
+  display: grid;
+  grid-auto-rows: 3rem 1fr;
+  grid-template-columns: 500px 1fr;
+  align-items: start;
+}
+
+.pictxttitle {
+  grid-column: span 2;
+}
+
+.interestpicture {
+  width: auto;
+}
+
+.pictext {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  align-items: start;
+}
+
+#education {
+  grid-auto-rows: 1fr 1fr;
+  gap: 80px
+}
