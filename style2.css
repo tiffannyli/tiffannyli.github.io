@@ -186,8 +186,6 @@ ul.tabs > li:after {
   .block2 {
     height: 180px;
   }
-
-  
 }
 
 /* iPads (landscape) ----------- */
@@ -251,7 +249,6 @@ ul.tabs > li:after {
   .block2 {
     height: 180px;
   }
-
 }
 
 /* iPads (portrait) ----------- */
@@ -315,7 +312,6 @@ ul.tabs > li:after {
   .block2 {
     height: 180px;
   }
-
 }
 
 /* Smartphones (portrait) ----------- */
@@ -379,7 +375,6 @@ ul.tabs > li:after {
   .block2 {
     height: 180px;
   }
-
 }
 
 /*ipad layout for laptop   */
@@ -443,7 +438,6 @@ ul.tabs > li:after {
   .block2 {
     height: 180px;
   }
-
 }
 
 @media only screen and (min-width: 1308px) and (max-width: 1717px) {
@@ -506,7 +500,6 @@ ul.tabs > li:after {
   .block2 {
     height: 180px;
   }
-
 }
 
 div.page:not(.active) {
@@ -529,7 +522,7 @@ div.page:not(.active) {
   margin-top: 20px;
   max-width: 1200px;
   margin: auto;
-  padding: 0 30px 20px 30px;
+  padding: 0 30px 60px 30px;
 }
 
 .interest {
@@ -555,5 +548,22 @@ div.page:not(.active) {
 
 #education {
   grid-auto-rows: 1fr 1fr;
-  gap: 80px
+  gap: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .interest {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .pictxttitle {
+    grid-column: span 1;
+  }
+
+  .pictext {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
 }
