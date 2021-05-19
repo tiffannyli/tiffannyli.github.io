@@ -1,6 +1,6 @@
 <html>
 <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Monda&display=swap" rel="stylesheet">
@@ -15,41 +15,40 @@
 </head>
 
 <body>
-
   <div class=tab-container>
     <ul class="tabs clearfix">
       <li data-page="other">
-        <a href=#>Other</a>
+        <button>Other</button>
       </li>
       <li data-page="interest">
-        <a href=#>Interests</a>
+        <button>Interests</button>
       </li>
       <li data-page="education">
-        <a href=#>Education</a>
+        <button>Education</button>
       </li>
       <li data-page="about" class="active">
-        <a href=#>About Me</a>
+        <button>About Me</button>
       </li>
     </ul>
 
     <div class="top">
-      <button id="resume" onclick="window.open('Tiffany Li-Resume.pdf');"></button>
-      <button id="email" onclick="parent.location='mailto:tiffanny.li99@gmail.com'"></button>
-      <button id="linkedin" onclick="window.open('https://www.linkedin.com/in/tiffany-li-779257180/');"></button>
-      <a href="blog/blog.html"><button id="blog"></button></a>
+      <button id="resume" title="Resume" onclick="window.open('Tiffany Li-Resume.pdf');"></button>
+      <button id="email"  title="Email" onclick="parent.location='mailto:tiffanny.li99@gmail.com'"></button>
+      <button id="linkedin" title="LinkedIn" onclick="window.open('https://www.linkedin.com/in/tiffany-li-779257180/');"></button>
+      <a title="Blog" href="blog/blog.html"><button id="blog"></button></a>
     </div>
   </div>
   <div class=outer-circle></div>
 
 
   <div id="about" class="page active">
-    <b class="blocktitle">About Me</b>
+    <strong class="blocktitle">About Me</strong>
 
     <div class="pictext">
-      <input type="image" src="IMG_4149.JPG" name="aboutme" class="pic" />
+      <img src="IMG_4149.JPG" alt="Picture of Tiffany" class="pic" />
       <div class="content show">
-        <p class="text">Hi, my name is <b class="bold">Tiffany</b>. I am currently a <b class="bold">fourth year</b>
-          student studying <b class="bold">Mathematics/Business Administration with a Computing Option</b> at the
+        <p class="text">Hi, my name is <strong class="bold">Tiffany</strong>. I am currently a <strong class="bold">fourth year</strong>
+          student studying <strong class="bold">Mathematics/Business Administration with a Computing Option</strong> at the
           University of Waterloo. </p>
         <p class="text"> I enjoy learning and applying mathematical analyses to different business problems, which has
           driven my decision to study in a program that explores both the math and business world.</p>
@@ -60,22 +59,22 @@
   </div>
 
   <div id="education" class="page">
+    <strong class="blocktitle">Education</strong>
 
-    <div class="interest">
-      <b class="blocktitle pictxttitle">Education</b>
-      <input type="image" src="IMG_5755.jpg" name="aboutme" class="pic" />
+    <div class="pictext card">
+      <img src="IMG_5755.jpg" alt="University of Waterloo Building" class="pic" />
       <div class="content show">
-        <p class="text"> <b class="bold">University of Waterloo</b> </p>
+        <p class="text"> <strong class="bold">University of Waterloo</strong> </p>
         <p class="text"> Honours Mathematics/Business Administration with Computing Option <br> 2019 - 2022 </p>
         <p class="text"> Honours Mathematics 2017 - 2019 </p>
       </div>
     </div>
 
 
-    <div class="pictext">
-      <input type="image" src="IMG_5756.jpg" name="aboutme" class="pic" />
+    <div class="pictext card">
+      <img src="IMG_5756.jpg" alt="Imperial College London Building" class="pic" />
       <div class="content show">
-        <p class="me"><b class="bold">Imperial College London Business School - Summer Program 2019</b> </p>
+        <p class="me"><strong class="bold">Imperial College London Business School - Summer Program 2019</strong> </p>
 
         <p class="me"> Modules:
           <li class="me"> Principles of Finance
@@ -87,11 +86,11 @@
 
   <div id="interest" class="page">
 
-    <div class="block2 interest">
-      <b class="blocktitle pictxttitle">Hackathon</b>
+    <div class="block2 interest card">
+      <strong class="blocktitle pictxttitle">Hackathon</strong>
 
-      <input type="image" src="IMG_0308.jpg" name="text" class="pic interestpicture" />
-      <div class="content">
+      <img src="IMG_0308.jpg" alt="Image of text saying Hackathon" class="pic interestpicture" />
+      <div class="content show">
         <p class="text"> Attending Hackathons allows me to enhance my problem-solving skills, and learn about many
           new technologies. I enjoy attending Hackathons. I find it both fun and challenging for me to work with a team
           to turn an idea into a product in such a short amount of time!</p>
@@ -102,10 +101,10 @@
       </div>
     </div>
 
-    <div class="interest">
-      <b class="blocktitle pictxttitle">Mechanical Keyboard</b>
-      <input type="image" src="DSC02279.jpg" name="text" class="pic interestpicture" />
-      <div class="content">
+    <div class="interest card">
+      <strong class="blocktitle pictxttitle">Mechanical Keyboard</strong>
+      <img src="DSC02279.jpg" alt="Mechanical Keyboard (Space 65)" class="pic interestpicture" />
+      <div class="content show">
         <p class="text"> I really like the customization, the do-it-yourself part in putting together a mechanical
           keyboard. The ability to customize and choose what you would want to do is what makes this an really fun
           hobby.</p>
@@ -114,11 +113,11 @@
       </div>
     </div>
 
-    <div class="interest">
-      <b class="blocktitle pictxttitle">Travelling</b>
-      <input type="image" src="DSC01581.JPG" name="text" class="pic interestpicture" />
-      <div class="content">
-        <p class="text"> I love to <b class="bold">travel</b>. It allows me to see amazing architectures, learn about
+    <div class="interest card">
+      <strong class="blocktitle pictxttitle">Travelling</strong>
+      <img src="DSC01581.JPG" alt="Scenery Picture of Barcelona" class="pic interestpicture" />
+      <div class="content show">
+        <p class="text"> I love to <strong class="bold">travel</strong>. It allows me to see amazing architectures, learn about
           different cultures, and eat delicious food! You can read more about some of my experiences in my blog.</p>
 
         <p class="text"> Some of the places I have been to are: Barcelona, Beijing, Changsha, London, Macau, Miami,
@@ -130,12 +129,12 @@
   </div>
 
   <div id="other" class="page">
-    <b class="blocktitle">Certifications and Other Examinations</b>
+    <strong class="blocktitle">Certifications and Other Examinations</strong>
 
-    <div>
-      <input type="image" src="NEW CSI logo.png" name="aboutme" class="pic" />
+    <div class="card">
+      <img src="NEW CSI logo.png" alt="CSI Logo" class="pic" />
       <div class="content show">
-        <p class="text"> <b class="bold">Canadian Securities Course</b> </p>
+        <p class="text"> <strong class="bold">Canadian Securities Course</strong> </p>
         <p class="text"> Exams:
           <li class="text"> Part I exam Completed in 2020
           </li>
@@ -143,12 +142,11 @@
       </div>
     </div>
 
-    <br><br>
 
-    <div>
-      <input type="image" src="rtaImage.png" name="aboutme" class="pic" />
+    <div class="card">
+      <img src="rtaImage.png" alt="FRM GARP Logo" class="pic" />
       <div class="content show">
-        <p class="text"><b class="bold">Financial Risk Management Exam</b> </p>
+        <p class="text"><strong class="bold">Financial Risk Management Exam</strong> </p>
         <p class="text"> Exams:
           <li class="text"> Part I exam to be completed in Nov 2021 (postponed due to Covid 19)
           </li>
